@@ -40,8 +40,7 @@ Front.compose({
     cc: ['copy@example.com'],
     subject: 'Optional subject',
     body: 'Optional body',
-    tags: ['tag_alias_1', 'tag_alias_2'],
-    inbox: 'inbox_alias'
+    tags: ['tag_alias_1', 'tag_alias_2']
 });
 ```
 Open a new message. Will do nothing if an inbox cannot be selected (for example, if you try to compose to a Twitter handle, but have no Twitter inbox).
@@ -54,7 +53,6 @@ The **options** object accepts the following fields :
 * `subject` (optional) will be used as subject for emails.
 * `body` (optional) is the content of your message. If you have any, a signature will be appended.
 * `tags` (optional) will be used to tag the conversation. Can be a list of tag aliases or a list of objects with an alias property. If omitted, no tags will be applied. Tags can be retrieved from fetchAllowedTags.
-* `inbox` (optional) is an inbox, retrievable from fetchInboxes. `inbox` can be either the inbox alias (String) or the inbox object (containing the `alias` property).
 
 ## Compose reply
 
