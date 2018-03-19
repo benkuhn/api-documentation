@@ -433,7 +433,7 @@ curl --include \
   ]
 }
 ```
-Lists the conversations assigned to a teammate in reverse chronological order (newest first).
+Lists the conversations assigned to a teammate in reverse chronological order (most recently updated first).
 
 ### HTTP Request
 
@@ -1335,7 +1335,7 @@ curl --include \
   ]
 }
 ```
-Lists all the conversations in your company in reverse chronological order (latest updated first).
+Lists all the conversations in your company in reverse chronological order (most recently updated first).
 
 ### HTTP Request
 
@@ -3230,7 +3230,7 @@ curl --include \
   ]
 }
 ```
-Lists all the conversations with a contact in reverse chronological order (newest first).
+Lists all the conversations with a contact in reverse chronological order (most recently updated first).
 
 ### HTTP Request
 
